@@ -114,15 +114,14 @@ h3 {
 .poke-name {
   font-size: 18px;
   font-family: sans-serif;
-  max-width: 50%;
 }
 
 .poke-item {
   background: rgba(255,255,255,0.5);
   margin: 10px auto;
-  list-style: none;
+  // list-style: none;
   width: 30%;
-
+  height: auto;
 }
 
 .poke-pic {
