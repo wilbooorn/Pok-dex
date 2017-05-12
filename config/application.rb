@@ -35,3 +35,4 @@ module Pokedex
     config.assets.paths << Rails.root.join("app", "assets", "images", "pokemon_snaps")
   end
 end
+config.assets.initialize_on_precompile = false
