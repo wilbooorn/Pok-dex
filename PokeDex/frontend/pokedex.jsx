@@ -14,6 +14,16 @@ window.requestAllPokemon = requestAllPokemon;
 window.selectAllPokemon = selectAllPokemon;
 
 document.addEventListener('DOMContentLoaded', () => {
+  var song = document.getElementById("yes-audio");
+  var logo = document.getElementById("play");
+  logo.addEventListener("click", ()=> {
+    if(song.paused){
+      song.play();
+    }
+    else{
+      song.pause();
+    }
+  });
   const root = document.getElementById('root');
   const store = configureStore();
   window.store = store;
