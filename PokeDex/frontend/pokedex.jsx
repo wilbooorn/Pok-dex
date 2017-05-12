@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import * as APIUtil from './util/api_util';
 import configureStore from './store/store';
 import Root from './root';
+import { HashRouter, Route } from 'react-router-dom';
 import { receiveAllPokemon, requestAllPokemon } from './actions/pokemon_actions';
 import { selectAllPokemon } from './reducers/selectors';
 
