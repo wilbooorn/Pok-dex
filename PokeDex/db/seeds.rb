@@ -1376,6 +1376,18 @@ ActiveRecord::Base.transaction do
          "psychic",
          "ancientpower"
       ],
+    },
+    "152"=>{
+      "name"=>"Jeff",
+      "attack"=>1000,
+      "defense"=>1000,
+      "poke_type"=>"psychic",
+      "moves"=>[
+         "Public Speaking",
+         "Motivation",
+         "Corgi Love",
+         "Youtube Videos"
+      ],
     }
   }
 

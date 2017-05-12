@@ -58,7 +58,7 @@ class PokemonDetail extends React.Component {
           <li >Attack: {this.props.pokemon.attack}</li>
           <li>Defense: {this.props.pokemon.defense}</li>
           <li>
-            <img  src={this.props.pokemon.image_url} />
+            <img className="picture" src={this.props.pokemon.image_url} />
           </li>
         </ul>
         {info}

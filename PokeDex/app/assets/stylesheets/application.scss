@@ -42,6 +42,8 @@ header {
 
 .ballz {
   background-color: red;
+  width: 150px;
+  height: 50px;
 }
 
 nav {
@@ -164,6 +166,11 @@ li {
   justify-content: center;
   align-items: center;
   padding-left: 0;
+}
+
+.picture{
+  width: 300px;
+  height: 300px;
 }
 
 .detail li {

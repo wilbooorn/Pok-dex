@@ -14,8 +14,8 @@ class ItemDetail extends React.Component {
       <div>
         <ul>
           <h1>{this.props.item.name}</h1>
-          <p>{this.props.item.happiness}</p>
-          <p>{this.props.item.price}</p>
+          <p>Happiness: {this.props.item.happiness}</p>
+          <p>Price: ${this.props.item.price}</p>
         </ul>
       </div>
     );
